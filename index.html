@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5.0, shrink-to-fit=no">
+  <title>Open Invite — design studio</title>
+  <meta name="description" content="Open Invite is a design studio.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!--
+    인트로 로고 애니메이션
+    - logo-intro.json 파일이 있으면 그 애니메이션을 한 번 재생하고 사라집니다.
+    - 파일이 없거나 오류가 나면 화면이 멈추지 않고 바로 사이트가 보이도록 안전장치가 들어있습니다.
+    - 로고 애니메이션이 필요 없어지면 이 <div id="intro">...</div> 블록 전체와
+      아래쪽의 lottie 스크립트 두 줄만 지우면 됩니다.
+  -->
+  <div id="intro" class="intro">
+    <div id="intro-logo" class="intro__logo"></div>
+  </div>
+
+  <header class="site-header" id="site-header">
+    <div class="site-header__inner">
+      <a class="logo" href="index.html" aria-label="Open Invite home">
+        <img src="dwp-logo.png" alt="Open Invite" class="logo__img">
+      </a>
+
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </button>
+
+      <nav class="primary-nav" id="primary-nav">
+        <a href="index.html">Work</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!--
+    로고 밴드 (헤더 바로 아래)
+    - 로고 자체가 계속 움직이며 반복 재생되는 띠지입니다 (예: cancanpress.com 헤더처럼).
+    - logo-loop.mp4 (또는 logo-loop.gif) 파일을 저장소에 올리면 그 영상이 반복 재생됩니다.
+    - 그 파일이 없으면 자동으로 아래의 정적 로고+문구 띠지로 대체됩니다. (사이트가 깨지지 않음)
+    - 애니메이션 파일을 바꾸려면 logo-loop.mp4 파일만 새로 교체하면 됩니다.
+  -->
+  <div class="logo-band" id="logo-band">
+    <video
+      id="logo-loop-video"
+      class="logo-band__video"
+      src="logo-loop.mp4"
+      autoplay muted loop playsinline
+      onerror="document.getElementById('logo-band').classList.add('logo-band--fallback')"
+    ></video>
+
+    <div class="marquee logo-band__fallback" aria-hidden="true">
+      <div class="marquee__track">
+        <span class="marquee__item"><img src="dwp-logo.png" alt=""><span>Open Invite Studio®</span></span>
+        <span class="marquee__item"><span>Design &amp; Branding.</span></span>
+        <span class="marquee__item"><img src="dwp-logo.png" alt=""><span>Open Invite Studio®</span></span>
+        <span class="marquee__item"><span>Design &amp; Branding.</span></span>
+        <span class="marquee__item"><img src="dwp-logo.png" alt=""><span>Open Invite Studio®</span></span>
+        <span class="marquee__item"><span>Design &amp; Branding.</span></span>
+
+        <span class="marquee__item"><img src="dwp-logo.png" alt=""><span>Open Invite Studio®</span></span>
+        <span class="marquee__item"><span>Design &amp; Branding.</span></span>
+        <span class="marquee__item"><img src="dwp-logo.png" alt=""><span>Open Invite Studio®</span></span>
+        <span class="marquee__item"><span>Design &amp; Branding.</span></span>
+        <span class="marquee__item"><img src="dwp-logo.png" alt=""><span>Open Invite Studio®</span></span>
+        <span class="marquee__item"><span>Design &amp; Branding.</span></span>
+      </div>
+    </div>
+  </div>
+
+  <main>
+
+    <section class="work work--home" id="work">
+      <div class="work-filters" id="work-filters"></div>
+
+      <div class="work-grid" id="work-grid">
+        <p>Loading…</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <p class="site-footer__brand">&copy; 2026 Open Invite</p>
+      <nav class="site-footer__links">
+        <a href="#" target="_blank" rel="noopener">Instagram</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
+  <script src="intro.js"></script>
+  <script src="main.js"></script>
+  <script src="projects.js"></script>
+</body>
+</html>
