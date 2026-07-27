@@ -1,0 +1,193 @@
+{
+  "projects": [
+    {
+      "id": "riverline",
+      "title": "Riverline",
+      "category": "brandidentity",
+      "meta": "Brand Identity, Packaging",
+      "date": "June 2026",
+      "client": "Client: Riverline Coffee",
+      "type": "Brand Identity, Packaging",
+      "collaboration": "Team",
+      "description": {
+        "ko": "",
+        "en": "Identity and packaging design for a new city coffee brand. This is placeholder (dummy) text — replace it with real content."
+      },
+      "thumbnail": { "type": "image", "src": "riverline.png" },
+      "media": [ { "type": "image", "src": "riverline.png" } ],
+      "sections": [
+        {
+          "title": "Brand Concept",
+          "desc": "Write your section description here. You can freely mix images, videos, and YouTube/Vimeo embeds.",
+          "media": [ { "type": "image", "src": "riverline.png" } ]
+        },
+        {
+          "title": "Application",
+          "desc": "",
+          "media": [ { "type": "image", "src": "riverline.png" } ]
+        }
+      ]
+    },
+    {
+      "id": "nomad-co",
+      "title": "Nomad Co.",
+      "category": "packaging",
+      "meta": "Packaging, Art Direction",
+      "date": "April 2026",
+      "client": "Client: Nomad Co.",
+      "type": "Packaging, Art Direction",
+      "collaboration": "Team",
+      "description": {
+        "ko": "",
+        "en": "Packaging and art direction for a travel goods brand. This is placeholder (dummy) text — replace it with real content."
+      },
+      "thumbnail": { "type": "image", "src": "nomad-co.png" },
+      "media": [ { "type": "image", "src": "nomad-co.png" } ],
+      "sections": [
+        {
+          "title": "Packaging System",
+          "desc": "Write your section description here.",
+          "media": [ { "type": "image", "src": "nomad-co.png" } ]
+        }
+      ]
+    },
+    {
+      "id": "fable-and-co",
+      "title": "Fable & Co",
+      "category": "editorial",
+      "meta": "Editorial, Print",
+      "date": "November 2025",
+      "client": "Client: Fable & Co",
+      "type": "Editorial, Print",
+      "collaboration": "Individual",
+      "description": {
+        "ko": "",
+        "en": "Editorial design system for an independent publisher. This is placeholder (dummy) text — replace it with real content."
+      },
+      "thumbnail": { "type": "image", "src": "fable-and-co.png" },
+      "media": [ { "type": "image", "src": "fable-and-co.png" } ],
+      "sections": [
+        {
+          "title": "Editorial System",
+          "desc": "Write your section description here.",
+          "media": [ { "type": "image", "src": "fable-and-co.png" } ]
+        }
+      ]
+    },
+    {
+      "id": "haven-studio",
+      "title": "Haven Studio",
+      "category": "brandidentity",
+      "meta": "Brand Identity, Signage",
+      "date": "March 2026",
+      "client": "Client: Haven Studio",
+      "type": "Brand Identity, Signage",
+      "collaboration": "Individual",
+      "description": {
+        "ko": "",
+        "en": "Brand identity for a yoga/wellness studio. This is placeholder (dummy) text — replace it with real content."
+      },
+      "thumbnail": { "type": "image", "src": "riverline.png" },
+      "media": [ { "type": "image", "src": "riverline.png" } ],
+      "sections": [
+        {
+          "title": "Signage System",
+          "desc": "Write your section description here.",
+          "media": [ { "type": "image", "src": "riverline.png" } ]
+        }
+      ]
+    },
+    {
+      "id": "loop-market",
+      "title": "Loop Market",
+      "category": "packaging",
+      "meta": "Packaging, Retail",
+      "date": "January 2026",
+      "client": "Client: Loop Market",
+      "type": "Packaging, Retail",
+      "collaboration": "Team",
+      "description": {
+        "ko": "",
+        "en": "Packaging system for a zero-waste market. This is placeholder (dummy) text — replace it with real content."
+      },
+      "thumbnail": { "type": "image", "src": "nomad-co.png" },
+      "media": [ { "type": "image", "src": "nomad-co.png" } ],
+      "sections": [
+        {
+          "title": "Retail Application",
+          "desc": "Write your section description here.",
+          "media": [ { "type": "image", "src": "nomad-co.png" } ]
+        }
+      ]
+    },
+    {
+      "id": "paper-and-tone",
+      "title": "Paper & Tone",
+      "category": "editorial",
+      "meta": "Editorial, Art Direction",
+      "date": "October 2025",
+      "client": "Client: Paper & Tone",
+      "type": "Editorial, Art Direction",
+      "collaboration": "Individual",
+      "description": {
+        "ko": "",
+        "en": "Editorial art direction for an independent music magazine. This is placeholder (dummy) text — replace it with real content."
+      },
+      "thumbnail": { "type": "image", "src": "fable-and-co.png" },
+      "media": [ { "type": "image", "src": "fable-and-co.png" } ],
+      "sections": [
+        {
+          "title": "Layout System",
+          "desc": "Write your section description here.",
+          "media": [ { "type": "image", "src": "fable-and-co.png" } ]
+        }
+      ]
+    },
+    {
+      "id": "field-office",
+      "title": "Field Office",
+      "category": "uxui",
+      "meta": "UX/UI, Digital Design",
+      "date": "August 2025",
+      "client": "Client: Field Office",
+      "type": "UX/UI",
+      "collaboration": "Team",
+      "description": {
+        "ko": "",
+        "en": "UX/UI design for a co-working space booking platform. This is placeholder (dummy) text — replace it with real content."
+      },
+      "thumbnail": { "type": "image", "src": "riverline.png" },
+      "media": [ { "type": "image", "src": "riverline.png" } ],
+      "sections": [
+        {
+          "title": "Booking Flow",
+          "desc": "Write your section description here.",
+          "media": [ { "type": "image", "src": "riverline.png" } ]
+        }
+      ]
+    },
+    {
+      "id": "glass-and-bloom",
+      "title": "Glass & Bloom",
+      "category": "brandidentity",
+      "meta": "Brand Identity, Packaging",
+      "date": "May 2025",
+      "client": "Client: Glass & Bloom",
+      "type": "Brand Identity, Packaging",
+      "collaboration": "Individual",
+      "description": {
+        "ko": "",
+        "en": "Identity and packaging design for a florist brand. This is placeholder (dummy) text — replace it with real content."
+      },
+      "thumbnail": { "type": "image", "src": "nomad-co.png" },
+      "media": [ { "type": "image", "src": "nomad-co.png" } ],
+      "sections": [
+        {
+          "title": "Packaging",
+          "desc": "Write your section description here.",
+          "media": [ { "type": "image", "src": "nomad-co.png" } ]
+        }
+      ]
+    }
+  ]
+}
